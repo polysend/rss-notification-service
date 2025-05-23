@@ -1,0 +1,12 @@
+name = "rss-notifications-service"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+routes = [
+  { pattern = "feed.polysend.io", custom_domain = true }
+]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rss-notifications-service-db"
+database_id = "xxxxxxx"
